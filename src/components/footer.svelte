@@ -8,7 +8,7 @@
 
 <footer class="footer">
     <p class="footer__message">
-        Well of course the copyright goes here.... but i will just display a date
+        Made with SvelteKit by Rigo Rosero C
         <span class="footer__date">{date}</span>
     </p>
 </footer>

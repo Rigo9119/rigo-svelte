@@ -23,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "svelte-awesome": "^2.4.4"
   }
 }
