@@ -32,3 +32,53 @@
 		transform: translate(13px, -1px) skew(-13deg);
 	}
 }
+
+@keyframes buttons_bkg {
+	0% {
+		background-color: crimson;
+		background-size: 0%;
+		font-size: 3vmin;
+	}
+
+	25% {
+		background-color: crimson;
+		background-size: 25%;
+	}
+
+	50% {
+		background-color: crimson;
+		background-size: 50%;
+	}
+
+	75% {
+		background-color: crimson;
+		background-size: 75%;
+	}
+
+	100% {
+		border: 1px solid crimson;
+		background-size: 100%;
+		font-size: 5vmin;
+	}
+}
+
+@keyframes subtitle_bkg {
+	0% { 
+		background-color: orange;
+		background-position: left;
+		background-size: 100%;
+		color: black;
+	}
+
+	50% {
+		background-size: 50%;
+		color: white;
+	}
+
+	100% {
+		border-right: 22px solid orange;
+		background-position: right;
+		background-size: 0%;
+		color: white;
+	}
+}

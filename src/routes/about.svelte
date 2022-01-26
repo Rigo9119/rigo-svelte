@@ -72,11 +72,12 @@
 
         &__title {
             align-self: flex-start;
-            //background: orange;
+            // animation: subtitle_bkg 1s linear;
             border-right: 22px solid orange;
             color: white;
             font-size: 42px;
             margin: 0 auto;
+            margin-bottom: 40px;
             padding: 10px 30px;
             width: 88%;
         }
@@ -95,7 +96,6 @@
 
         &__title {
             align-self: flex-start;
-            //background: orange;
             border-right: 22px solid orange;
             color: white;
             font-size: 42px;

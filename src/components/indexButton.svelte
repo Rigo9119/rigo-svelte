@@ -26,10 +26,8 @@
 		width: 48%;
 
 		&:hover {
+			animation: buttons_bkg 1.5s linear;
 			color:rgb(221, 221, 221);
-			background-color: crimson;
-			border: 1px solid crimson;
-			font-size: 5vmin;
 		}
 	}
 </style>
